@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Bootstrap Admin Theme</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="overlay">
+    </div>
+    <!-- sidebar -->
+    <nav id="sidebar-wrapper" class="fixed-top align-top" role="navigation">
+      <div class="simplebar-content p-0">
+        <a href="#" class="sidebar-brand text-center">
+          <span class="align-middle text-uppercase">Admin Dashboard</span>
+        </a>
+        <ul class="navbar-nav align-self-stretch">
+          <li class="sidebar-header">Pages</li>
+          <li>
+            <a href="#" class="nav-link text-left active" role="button">
+              <i class="far fa-chart-bar"></i>
+              Dashboard
+            </a>
+          </li>
+          <li class="has-sub">
+            <a href="#collapseExample2" class="nav-link collapsed text-left" role="button" data-toggle="collapse">
+              <i class="far fa-user"></i>
+              Profile
+            </a>
+            <div class="collapse menu mega-dropdown" id="collapseExample2">
+              <div class="dropdown" arial-labelledby="navbarDropdown">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-lg-12 px-2">
+                      <div class="submenu-box">
+                        <ul class="list-unstyled m-0">
+                          <li><a href="#">CSS Framework</a></li>
+                          <li><a href="#">Lavarel Framework</a></li>
+                          <li><a href="#">JS Framework</a></li>
+                          <li><a href="#">Angular</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <a href="#" class="nav-link text-left" role="button">
+              <i class="fas fa-file-invoice-dollar"></i>
+              Invoice
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-left" role="button">
+              <i class="fas fa-university"></i>
+              Bank
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-left" role="button">
+              <i class="fas fa-cogs"></i>
+              Settings
+            </a>
+          </li>
+
+          <li class="sidebar-header">
+            Components
+          </li>
+          <li>
+            <a href="#" class="nav-link text-left" role="button">
+              <i class="fas fa-cogs"></i>
+              UI elements
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-left" role="button">
+              <i class="fas fa-cogs"></i>
+              Forms
+            </a>
+          </li>
+          <li class="sidebar-header">
+            Analytics Tools
+          </li>
+
+          <li>
+            <a href="#" class="nav-link text-left" role="button">
+              <i class="fas fa-cogs"></i>
+              Tables
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-left" role="button">
+              <i class="fas fa-cogs"></i>
+              Charts
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-left" role="button">
+              <i class="fas fa-cogs"></i>
+              Maps
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- sidebar wrapper -->
+
+    <!-- page content -->
+    <div id="page-content-wrapper">
+      <div id="content">
+        <div class="container-fluid p-0">
+
+          <!-- top bar -->
+          <nav class="navbar navbar-expand navbar-light main-navbar">
+            <div id="bar" class="nav-icon-1 hamburger animated fadeInLeft is-closed" type="button"
+              data-toggle="offcanvas">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <!-- top bar search -->
+            <form action="" class="d-none d-sm-inline-block form-inline navbar-search">
+              <div class="input-group">
+                <input type="text" class="form-control bg-light" placeholder="Search for...">
+                <div class="input-group-append">
+                  <button class="btn btn-primary" type=button>
+                    <i class="fas fa-search fa-sm"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+
+            <!-- top bar nav -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-bell fa-fw text-gray-800"></i>
+                  <span class="badge badge-danger badge-counter">3+</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-envelope text-gray-800"></i>
+                  <span class="badge badge-danger badge-counter">7</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <span class="mr-2 d-none d-lg-inline text-gray-600">
+                    ClientName
+                  </span>
+                  <img src="img/logo-2.png" alt="" class="img-profile rounded-circle">
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- end of top bar -->
+
+          <!-- page content start -->
+          <div class="container-fluid px-lg-4">
+            <div class="row">
+              <div class="col-md-12 mt-lg-4 mt-4">
+                <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                  <h1 class="h3 mb-0 text-gray-800">
+                    Dashboard
+                  </h1>
+                  <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                    <i class="fas fa-download fa-sm text-white-50"></i>
+                    Generate Report
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="row">
+
+                  <div class="col-sm-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title mb-4">
+                          Views
+                        </h5>
+                        <div class="card-body__value">
+                          20.130
+                        </div>
+                        <div class="mb-1">
+                          <span class="text-success">
+                            <i class="mdi mdi-arrow-bottom-right"></i>
+                            +1.403
+                          </span>
+                          <span class="text-muted">from last week</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title mb-4">
+                          New users
+                        </h5>
+                        <div class="card-body__value">
+                          19
+                        </div>
+                        <div class="mb-1">
+                          <span class="text-danger">
+                            <i class="mdi mdi-arrow-bottom-right"></i>
+                            -4
+                          </span>
+                          <span class="text-muted">from last week</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title mb-4">
+                          Sales
+                        </h5>
+                        <h1 class="display-5 mt-1 mb-3">
+                          453
+                        </h1>
+                        <div class="mb-1">
+                          <span class="text-success">
+                            <i class="mdi mdi-arrow-bottom-right"></i>
+                            +64
+                          </span>
+                          <span class="text-muted">from last week</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title mb-4">
+                          Earnings
+                        </h5>
+                        <h1 class="display-5 mt-1 mb-3">
+                          $12.690
+                        </h1>
+                        <div class="mb-1">
+                          <span class="text-danger">
+                            <i class="mdi mdi-arrow-bottom-right"></i>
+                            -1.755
+                          </span>
+                          <span class="text-muted">from last week</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-md-12 mt-4">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-md-flex align-items-center">
+                      <div>
+                        <h3 class="card-title">
+                          Top selling products
+                        </h3>
+                        <h6 class="card-subtitle">
+                          Overview of top selling items
+                        </h6>
+                      </div>
+                      <div class="ml-auto mb-2 mb-md-0">
+                        <select name="report-period" id="report-period" class="custom-select">
+                          <option value="0" selected>Monthly</option>
+                          <option value="1">Weekly</option>
+                          <option value="2">Daily</option>
+                          <option value="3">Yearly</option>
+                        </select>
+                      </div>
+                    </div>
+
+
+                    <div class="table-responsive">
+                      <table class="table v-middle mb-0">
+                        <thead>
+                          <tr class="bg-light">
+                            <th class="border-top-0">Product</th>
+                            <th class="border-top-0">License</th>
+                            <th class="border-top-0">Agent</th>
+                            <th class="border-top-0">Technology</th>
+                            <th class="border-top-0">Ticket</th>
+                            <th class="border-top-0">Sells</th>
+                            <th class="border-top-0">Earning</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="m-r-10">
+                                  <a href="#" class="btn btn-circle btn-purple text-white">EA</a>
+                                </div>
+                                <div>
+                                  <h4 class="mb-0 font-16">Elite admin</h4>
+                                </div>
+                              </div>
+                            </td>
+                            <td>Single use</td>
+                            <td>John Doe</td>
+                            <td>
+                              <label for="" class="label label-danger">
+                                Angular
+                              </label>
+                            </td>
+                            <td>46</td>
+                            <td>356</td>
+                            <td>
+                              <h5 class="mb-0">$2.850</h5>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="m-r-10">
+                                  <a href="#" class="btn btn-circle btn-orange text-white">EA</a>
+                                </div>
+                                <div>
+                                  <h4 class="mb-0 font-16">Orange admin</h4>
+                                </div>
+                              </div>
+                            </td>
+                            <td>Single use</td>
+                            <td>Jane Doe</td>
+                            <td>
+                              <label for="" class="label label-danger">
+                                CSS
+                              </label>
+                            </td>
+                            <td>65</td>
+                            <td>320</td>
+                            <td>
+                              <h5 class="mb-0">$2.155</h5>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="m-r-10">
+                                  <a href="#" class="btn btn-circle btn-green text-white">EA</a>
+                                </div>
+                                <div>
+                                  <h4 class="mb-0 font-16">Green admin</h4>
+                                </div>
+                              </div>
+                            </td>
+                            <td>Single use</td>
+                            <td>Jack Doe</td>
+                            <td>
+                              <label for="" class="label label-danger">
+                                PHP
+                              </label>
+                            </td>
+                            <td>17</td>
+                            <td>286</td>
+                            <td>
+                              <h5 class="mb-0">$1.640</h5>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="m-r-10">
+                                  <a href="#" class="btn btn-circle btn-purple text-white">EA</a>
+                                </div>
+                                <div>
+                                  <h4 class="mb-0 font-16">Elite admin</h4>
+                                </div>
+                              </div>
+                            </td>
+                            <td>Multi use</td>
+                            <td>John Doe</td>
+                            <td>
+                              <label for="" class="label label-danger">
+                                Angular
+                              </label>
+                            </td>
+                            <td>24</td>
+                            <td>209</td>
+                            <td>
+                              <h5 class="mb-0">$1.350</h5>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="m-r-10">
+                                  <a href="#" class="btn btn-circle btn-green text-white">EA</a>
+                                </div>
+                                <div>
+                                  <h4 class="mb-0 font-16">Green admin</h4>
+                                </div>
+                              </div>
+                            </td>
+                            <td>Multi use</td>
+                            <td>Jack Doe</td>
+                            <td>
+                              <label for="" class="label label-danger">
+                                PHP
+                              </label>
+                            </td>
+                            <td>6</td>
+                            <td>160</td>
+                            <td>
+                              <h5 class="mb-0">$1.000</h5>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="row text-muted">
+              <div class="col-12 col-sm-4 col-md-6 order-2 order-sm-1 text-center text-sm-left">
+                <p class="mb-0">
+                  <a href="#" class="text-muted">
+                    <strong>Bootstrap Admin Dashboard &copy;</strong>
+                  </a>
+                </p>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 order-1 order-sm-2 text-center text-sm-right align-self-center">
+                <ul class="list-inline mb-2 mb-sm-0">
+                  <li class="footer-item">
+                    <a href="#" class="text-muted">
+                      Support
+                    </a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="#" class="text-muted">
+                      Help center
+                    </a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="#" class="text-muted">
+                      Privacy
+                    </a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="#" class="text-muted">
+                      Terms
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+
+
+
+
+    </div>
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $('#bar').click(function () {
+      $(this).toggleClass('open');
+      $('#page-content-wrapper, #sidebar-wrapper').toggleClass('toggled');
+    })
+  </script>
+</body>
+
+</html>
